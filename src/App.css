@@ -1,0 +1,38 @@
+body{
+width: 100%;
+  background-color: whitesmoke;
+  color: #9e9ea4;
+  font-family: 'montserrat',sans-serif;
+  margin: 0px;
+} 
+
+.sidebarlayout{
+   display: flex;
+   width: 100%;
+   height: 100%;
+}
+
+.mainlayout {
+
+   height: 100%;
+    flex-direction: column;
+    width: 100%;
+   margin:10px;
+  
+}
+
+.checkcontainer{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.profit{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+ margin: 1px;
+ padding: 0px;
+  gap: 10px;
+}
